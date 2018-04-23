@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="HowToAccessApplicationModelInCode" Logo="ExpressAppLogo">
+  <Views>
+    <ListView Id="Contact_ListView_FewColumls" IsNewNode="True" ClassName="HowToAccessApplicationModelInCode.Module.Contact">
+      <Columns IsNewNode="True">
+        <ColumnInfo Id="FullName" IsNewNode="True" PropertyName="FullName" Index="0" SortIndex="0" SortOrder="Ascending" />
+        <ColumnInfo Id="Email" IsNewNode="True" PropertyName="Email" Index="3" />
+      </Columns>
+      <Filters IsNewNode="True" />
+      <HiddenActions IsNewNode="True" />
+      <SplitLayout IsNewNode="True" />
+    </ListView>
+  </Views>
+</Application>
